@@ -1,11 +1,11 @@
-import React from 'react'
-import BackgroundProduct from '../../components/BackgroundProduct'
-import Footer from '../../components/Footer'
-import Header from '../../components/Header'
-import Title from '../../components/Title'
-import Cards from '../../components/Cards';
-import Details from '../../components/Details'
-import Tab from '../../components/Tab'
+import React from 'react';
+import BackgroundProduct from '../../components/BackgroundProduct';
+import Footer from '../../components/Footer';
+import Header from '../../components/Header';
+import Title from '../../components/Title';
+import Cards from '../../components/Cards';;
+import Details from '../../components/Details';
+import Tab from '../../components/Tab';
 
 function Product() {
   return (

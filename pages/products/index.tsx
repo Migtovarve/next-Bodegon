@@ -1,14 +1,14 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import BackgroundProduct from '../../components/BackgroundProduct';
 import Cards from '../../components/Cards';
-import { getCategories, getProducts } from '../../products'
+import { getCategories, getProducts } from '../../products';
 import SideBar from '../../components/SideBar';
 import Sorts from '../../components/Sorts';
 import Image from 'next/image';
-import previous from '../../public/imgs/Vectorprevious.svg'
-import next from '../../public/imgs/Vectornext.svg'
+import previous from '../../public/imgs/Vectorprevious.svg';
+import next from '../../public/imgs/Vectornext.svg';
 
 
 const categories = getCategories()
