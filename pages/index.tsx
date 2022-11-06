@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import slide1 from '../public/imgs/Rectangle5img1.png'
 import Header from '../components/Header';
