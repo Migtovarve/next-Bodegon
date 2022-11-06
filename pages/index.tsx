@@ -11,28 +11,24 @@ import BestCarousel from '../components/BestCarousel';
 
 
 function HomePage() {
-  useEffect(() => {
-
-  }, [])
-
   return (<>
-    <div className='w-screen h-screen relative'>
+    <div className="w-screen h-screen relative">
       <Header/>
       <Image src={slide1} layout="fill" alt=''/>
       <IndicatorCarrousel/>
     </div>
 
-    <div className='mt-16'>
-    <Title title='BEST SELLERS' />
+    <div className="mt-16">
+    <Title title="BEST SELLERS" />
     </div>
 
     <BestCarousel/>
 
     <Banner/>
 
-    <Title title='LICORES' />
+    <Title title="LICORES" />
 
-    <div className='flex justify-center mb-28'>
+    <div className="flex justify-center mb-28">
       <Cards cols={4} max={ 8 }/>
     </div>
 
@@ -41,7 +37,7 @@ function HomePage() {
 
   </>
   )
-}
+};
 
   export default HomePage;
 
