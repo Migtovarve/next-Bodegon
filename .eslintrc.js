@@ -11,7 +11,5 @@ module.exports = {
     '@next/next/no-img-element': 'off',
     'react/function-component-definition': 'off',
     'react/no-unstable-nested-components': 'off',
-    "react/no-unescaped-entities": "off",
-    "@next/next/no-page-custom-font": "off"
   },
 };
